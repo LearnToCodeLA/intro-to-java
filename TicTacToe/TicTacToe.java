@@ -41,14 +41,12 @@ public class TicTacToe{
 		controlTurn();
 	}
 
-  /**
-    ADD CODE TO PRINT THE BOARD
-  **/
 	public void drawBoard(){
-
-    //implement print statements to draw the board
-    //using the arrays for row0, row1, and row2 aboe
-
+		System.out.println("");
+		System.out.println("    0   1   2");
+		System.out.println("0 | "+this.row0[0]+" | "+this.row0[1]+" | "+this.row0[2]);
+		System.out.println("1 | "+this.row1[0]+" | "+this.row1[1]+" | "+this.row1[2]);
+		System.out.println("2 | "+this.row2[0]+" | "+this.row2[1]+" | "+this.row2[2]);
 	}
 
 	public void drawMove(int x, int y, char c){
